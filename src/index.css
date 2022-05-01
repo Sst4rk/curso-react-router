@@ -1,0 +1,47 @@
+html {
+    box-sizing: border-box;
+    font-size: 14px;
+    font-family: sans-serif;
+    background-color: #282c34;
+    color: white;
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: inherit;
+}
+
+h1 {
+    color: skyblue;
+}
+
+h1,
+h2,
+h3 {
+    text-align: center;
+}
+
+a {
+    color: skyblue;
+    text-decoration: none;
+    margin-right: 1rem;
+}
+
+.active {
+    font-weight: bold;
+    color: white;
+}
+
+.is-active {
+    font-weight: bold;
+    color: lightyellow;
+}
+
+li {
+    margin-bottom: 1rem;
+}
+
+hr {
+    margin: 2rem auto;
+}
